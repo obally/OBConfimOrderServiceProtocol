@@ -51,6 +51,7 @@
 		2BDC87C81EA07551009C1592 /* OBConfimOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBConfimOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC87CC1EA07551009C1592 /* OBConfimOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBConfimOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
 		2BDC87CE1EA07551009C1592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC87DC1EA075D2009C1592 /* OBConfimOrderServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBConfimOrderServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		2BDC87A61EA07551009C1592 /* OBConfimOrderServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				2BDC87DA1EA075B3009C1592 /* OBConfimOrderServiceProtocol */,
 				2BDC87AA1EA07551009C1592 /* AppDelegate.h */,
 				2BDC87AB1EA07551009C1592 /* AppDelegate.m */,
 				2BDC87AD1EA07551009C1592 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				2BDC87CE1EA07551009C1592 /* Info.plist */,
 			);
 			path = OBConfimOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		2BDC87DA1EA075B3009C1592 /* OBConfimOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				2BDC87DC1EA075D2009C1592 /* OBConfimOrderServiceProtocol.h */,
+			);
+			path = OBConfimOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
